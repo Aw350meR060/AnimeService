@@ -3,9 +3,6 @@ server:
 security:
   basic:
     realm: animes
-  user:
-    name: user
-    password: 1
 spring:
   jackson:
     date-format: yyyy-MM-dd

@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example.aw350meServ3r</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>AnimeService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Aneemays</name>
+	<description>Anime List Service for a student report</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -56,6 +56,12 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf-spring4 -->
+		<dependency>
+		<groupId>org.thymeleaf</groupId>
+			<artifactId>thymeleaf-spring4</artifactId>
+			<version>2.1.2.RELEASE</version>
 		</dependency>
 	</dependencies>
 
